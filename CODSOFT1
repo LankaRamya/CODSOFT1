@@ -1,5 +1,5 @@
 def simple_chatbot(user_input):
-    user_input = user_input.lower()  # Convert user input to lowercase for easier matching
+    user_input = user_input.lower() # Convert user input to lowercase for easier matching
 
     if "hello" in user_input:
         return "Hello! How can I help you today?"
@@ -27,5 +27,5 @@ def main():
         response = simple_chatbot(user_input)
         print("Chatbot:", response)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
